@@ -1,8 +1,8 @@
 @echo off 
 
-set Pan=C D E F G H I J K L M N O P Q R S T U V W X Y Z
-echo search
-for %%a in (%Pan%) do (
+set AllDrive=C D E F G H I J K L M N O P Q R S T U V W X Y Z
+echo searching... Please wait...
+for %%a in (%AllDrive%) do (
     if exist %%~a:\ (
        del /s /q %%~a:\abc.txt
     )
