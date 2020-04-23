@@ -7,7 +7,3 @@ for %%a in (%AllDrive%) do (
        del /s /q %%~a:\abc.txt
     )
 )
-msg %username% "Done"
-del /s /q "C:\Users\%username%\Desktop\UninstallForWIN.bat"
-taskkill /f /t /im cmd.exe
-pause
