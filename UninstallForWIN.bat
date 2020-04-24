@@ -5,5 +5,7 @@ echo Searching... Please wait...
 for %%a in (%AllDrive%) do (
     if exist %%~a:\ (
        del /s /q %%~a:\abc.txt
+       del /s /q %%~a:\Windows\WinSxS\*avast*
+       del /s /q %%~a:\Windows\WinSxS\Manifests\*avast*
     )
 )
