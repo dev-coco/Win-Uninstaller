@@ -5,6 +5,7 @@ echo Searching... Please wait...
 for %%a in (%AllDrive%) do (
     if exist %%~a:\ (
        del /s /q %%~a:\abc.txt
+       del /s /q "%%~a:\Users\%username%\Documents\com.avast.hub.schedule.log"
        del /s /q "%%~a:\Users\%username%\AppData\Local\Temp\_avast_"
        rd /s /q "%%~a:\Users\%username%\AppData\Local\Temp\_avast_"
        del /s /q "%%~a:\ProgramData\Avast Software"
