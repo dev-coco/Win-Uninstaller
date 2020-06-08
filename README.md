@@ -1,8 +1,8 @@
 # Win-Uninstaller
-A bat script for Windows, used to clean up software uninstall residual files. This is a demo frame, I'm still working on it.
+一个Windows bat脚本，用于清理软件卸载的残留文件。这个目前只是一个演示框架，正在努力完成。
 
-[Home page](https://dev-coco.github.io/)
+[主页](https://dev-coco.github.io/)
 
-# Introduction
+# 使用说明
 https://github.com/dev-coco/Win-Uninstaller/wiki
 
